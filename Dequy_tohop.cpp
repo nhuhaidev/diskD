@@ -42,7 +42,7 @@ void combination_num(int **&arr, int *&num, int n, int tem)
         return;
     }
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) // num
     {
         if (num[i] == 0)
         {
